@@ -19,6 +19,11 @@ newUser : User = new User();
       console.log(this.newUser.password);
   }
 
+  cadastroUser()
+  {
+    console.log
+  }
+
   ngOnInit() {
   }
 

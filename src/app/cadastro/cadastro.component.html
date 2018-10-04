@@ -1,0 +1,16 @@
+<div class="flex">
+  <div class="item-flex">
+    <div class="jumbotron">
+      
+      <p class="fonte-titulo">C A D A S T R O</p>
+      <input type="text" placeholder="Nome"[(ngModel)]="newUser.nome">
+      <input type="text" placeholder="Email"[(ngModel)]="newUser.email">
+      <input type="password" placeholder="Senha"[(ngModel)]="newUser.password">
+      <button class="btn btn-primary btn-block"(click)="admin/php/cadastro.php">Cadastrar</button>
+    </div>
+    <p>{{newUser.email}}</p>
+    <p>{{newUser.password}}</p>
+    
+    
+  </div>
+</div>
