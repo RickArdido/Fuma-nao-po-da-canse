@@ -6,10 +6,9 @@
       <input type="text" placeholder="Login"[(ngModel)]="newUser.email">
       <input type="password" placeholder="Senha"[(ngModel)]="newUser.password">
       <button class="btn btn-primary btn-block"(click)="loginUser()">Entrar</button>
-      <button class="btn btn-primary btn-block"(click)="Cadastro()">Cadastrar-se</button>
+      <a href="src/app/cadastro/cadastro.component.html" target="window.src/app/cadastro/cadastro.component.css" class="link">Cadastre-se</a>
     </div>
-    <p>{{newUser.email}}</p>
-    <p>{{newUser.password}}</p>
+
     
     
   </div>
